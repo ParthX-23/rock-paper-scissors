@@ -33,7 +33,7 @@ const computerScorePara=document.querySelector("#computer_score");
 const  drawGame=()=>{
     console.log("Game was draw")
     msg.innerText="Game Was Draw ! Play again.";
-    msg.style.backgroundColor="#1D1616";
+    msg.style.background="linear-gradient(to right, #000000, #1a1a2e)";
 }
 
 // create a function to deleare which will be win
@@ -43,13 +43,13 @@ const showWiner=(userWin,userChoice,comChoice)=>{
         userScorePara.innerText= userScore;
         console.log("you win");
         msg.innerText=`You Win! your ${userChoice} beats ${comChoice} `;
-        msg.style.backgroundColor= "#1F7D53";
+        msg.style.background= "linear-gradient(to right, #00b09b, #96c93d)";
     }else{
         ComputerScore++;
         computerScorePara.innerText=ComputerScore;
         console.log("you lose");
         msg.innerText=`You Lose, computer ${comChoice} beats your ${userChoice} `;;
-        msg.style.backgroundColor="#8E1616";
+        msg.style.background="linear-gradient(to right, #f12711, #f5af19)";
     }
  }
 // create a function for play the game
