@@ -1,15 +1,14 @@
-# 🪨✂️📄 Rock Paper Scissors Game
+# Rock Paper Scissors Game
 
 A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript. Challenge the computer and test your luck!
 
-## 🎮 Demo
+##  Demo
 
-[Live Demo](https://parthx-23.github.io/rock-paper-scissors)  
-*(Replace the above link with your deployed project if available)*
+[Try This](https://parthx-23.github.io/rock-paper-scissors)  
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  Random choice generator for the computer
 -  Real-time results displayed after each round
@@ -19,7 +18,7 @@ A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML** – for structuring the game layout
 - **CSS** – for styling the UI
@@ -30,11 +29,10 @@ A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 ## 📷 Screenshots
 
 ![Game Screenshot](Screenshot.png)  
-*(Include a screenshot image in the root directory and update the file name if needed)*
 
 ---
 
-## 📂 How to Run Locally
+##  How to Run Locally
 
 1. **Clone the repository**
    ```bash
