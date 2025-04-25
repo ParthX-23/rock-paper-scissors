@@ -89,3 +89,54 @@ body{
     margin-top:3rem;
     
 }
+@media (max-width: 768px) {
+    nav h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+    }
+
+    .choices {
+        
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+
+    .choice{
+        height:80px;
+        width:70px;
+        border-radius: 1rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    
+    }
+    .score_board {
+        
+        gap: 3rem;
+        margin-top: 4rem;
+    }
+    .score_board p{
+        font-size: 1.5rem;
+    }
+
+    #User_score, #computer_score {
+        font-size: 2rem;
+    }
+
+    .gameInfo {
+        
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .msg_container{
+        margin-top: 6rem;
+    }
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+}

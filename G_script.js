@@ -48,7 +48,7 @@ const showWiner=(userWin,userChoice,comChoice)=>{
         ComputerScore++;
         computerScorePara.innerText=ComputerScore;
         console.log("you lose");
-        msg.innerText=`You Lose, computer ${comChoice} beats your ${userChoice} `;;
+        msg.innerText=`You Lose, computer ${comChoice} beats ${userChoice} `;;
         msg.style.background="linear-gradient(to right, #f12711, #f5af19)";
     }
  }
@@ -91,14 +91,6 @@ const playGame=(userChoice)=>{
  });
 
 
-//  raf
 
-
-
-//  Access Your choice div
-const yourChoicediv=document.querySelector(".userChoice");
-// Access computer choice div
-
-const comChoice=document.querySelector(".comChoice");
 
 
