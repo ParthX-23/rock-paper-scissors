@@ -3,18 +3,18 @@
     padding:0;
     text-align: center;
 }
-nav{
-    height:4rem;
-    width:100%;
-    color:#fff;
-    background-color:#09122C;
+nav {
+    color:(to right, #00c6ff, #0072ff);
 }
 nav h1{
     line-height: 4rem;
-    font-size: 2rem;;
+    font-size: 2rem;
+    color:#1D1616;
 }
 body{
-    background-color:#FDFBEE ;
+    min-height: 100vh;
+    width:100;
+    background:linear-gradient(to bottom,#f7971e, #ffd200, #86e3ce);
 }
 #template{
     height:10rem;
@@ -25,7 +25,7 @@ body{
 .choice{
     height:190px;
     width:170px;
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -51,8 +51,7 @@ body{
 }
 .choice:hover{
     cursor:pointer;
-    background-color:#B4EBE6;
-    box-shadow: 2px 2px 2px 2px #80CBC4;
+    background:linear-gradient(45deg, #ee2b09,#d8e214);
 }
 /* score board */
 .score_board{
@@ -89,16 +88,4 @@ body{
     gap:8rem;
     margin-top:3rem;
     
-}
-.userChoice{
-    margin-top: 1.5rem;
-    height:190px;
-    width:170px;
-    background-color: #80CBC4;
-}
-.comChoice{
-    margin-top: 1.5rem;
-    height:190px;
-    width:170px;
-    background-color: #80CBC4;
 }
